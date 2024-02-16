@@ -1,0 +1,149 @@
+#myplot{
+
+    height: 20rem;
+    width:30rem
+}
+canvas{
+    position: relative;
+}
+
+#main{
+    display: flex;
+}
+#eqn_input{
+ background-color: aqua;
+ width: 20rem;
+}
+#result{
+width: 30rem;
+background-color: blueviolet;
+}
+
+.main-svg{
+    height: 600px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.container {
+    max-width: 600px;
+    max-height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 6rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #87ceeb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border-color: #87ceeb; 
+    box-shadow: 0 0 5px 0 #87CEEB;
+}
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: #28d677;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+}
+button:hover{
+    background-color: #22ba66;
+}
+
+button[type="submit"]:hover {
+    background-color: #3a02f1;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+.js-plotly-plot .plotly .main-svg {
+ position: relative;
+}
+
+#eqn2{
+   display: none;
+}
